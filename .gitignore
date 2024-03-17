@@ -35,3 +35,9 @@
 .vs/
 bin/
 build/
+
+# Ignore generated files
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
