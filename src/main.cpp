@@ -1,25 +1,11 @@
 #include <getting-started.h>
-#include <array>
-
-static int executeGettingStartedPrograms() {
-	printHelloWorld();
-
-	printSum(10, 7);
-
-	printSpeechMark();
-
-	printTab();
-
-	shortestProgramViable();
-
-	printNewLineHelloWorld();
-
-	return 0;
-}
+#include <working-with-strings.h>
 
 int main() {
 	
-	executeGettingStartedPrograms();
+	runGettingStarted();
+
+	runWorkingWithStrings();
 
 	return 0;
 }

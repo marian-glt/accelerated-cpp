@@ -33,3 +33,19 @@ int printNewLineHelloWorld() {
 
 	return 0;
 }
+
+int runGettingStarted() {
+	printHelloWorld();
+
+	printSum(10, 7);
+
+	printSpeechMark();
+
+	printTab();
+
+	shortestProgramViable();
+
+	printNewLineHelloWorld();
+
+	return 0;
+}

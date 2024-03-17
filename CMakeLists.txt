@@ -9,6 +9,6 @@ project(accelerated-cpp
 set(CMAKE_CXX_STANDARD 11)
 set(CMAKE_CXX_STANDARD_REQUIRED True)
 
-add_executable(cpp-executable src/main.cpp)
+add_executable(cpp-executable src/main.cpp "src/working-with-strings.h")
 
 target_include_directories(cpp-executable PUBLIC src)
